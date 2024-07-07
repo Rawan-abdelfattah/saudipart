@@ -4,109 +4,14 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Montserrat', sans-serif;
 }
 :root{
-    --orange-color: rgb(224, 169, 98);
+    --blue-color:#0a56f7;
 }
 body{
     font-family: 'Nunito', sans-serif;
 }
-section{
-    padding: 90px 0;
+.blue-bg{
+    background-color: var(--blue-color);
 }
-.color{
-    color: var(--orange-color);
-}
-#home{
-    background: url(../images/drew-coffman-1872.jpg) center fixed no-repeat;
-    background-size: cover;
-    
-}
-#home .layer{
-    min-height: 100vh;
-}
-.navbar-expand-lg .navbar-nav .nav-link{
-    transition: color .5s;
-    color: rgb(151, 107, 53);
-
-    
-
-}
-.navbar-expand-lg .navbar-nav .nav-link:hover{
-    color: var(--orange-color);
-
-}
-.navbar-expand-lg .navbar-nav .nav-link.active{
-    color: var(--orange-color);
-
-}
-#home  .contact {
-    all: unset;
-    padding: 15px 30px;
-    margin: 5px;
-    border-radius: 10px;
-    border: 2px solid white;
-    cursor: pointer;
-}
-#home  .contact:hover {
-    /* background-color: ; */
-}
-#home .learn{
-    all: unset;
-    background-color: var(--orange-color);
-    padding: 15px 30px;
-    margin: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    
-
-
-}
-#home .learn:hover , #home  .contact:hover{
-    background-color: white;
-    color: var(--orange-color);
-    transition: all .5s;
-}
-#about .icon{ 
-    border: 2px solid black;
-    border-radius: 50%;
-    padding: 10px 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 10px;
-    transition: border-color .5s , color .5s;
-    margin-top:5px;
-    margin-bottom:5px;
-    border-color: rgb(151, 107, 53);
-    color: rgb(151, 107, 53);
-    cursor: pointer;
-
-    
-
-}
-#about .icon:hover{
-    border-color: var(--orange-color);
-    color: var(--orange-color);
-}
-#about .icon i{
-    font-size: 20px;
-}
-
-#contact{
-    background-color: bisque;
-}
-.footer{
-    background-color: rgb(151, 107, 53);
-    height: 120px;
-    
-}
-ul{
-    list-style:circle;
-}
-ul li{
-    cursor: pointer;
-    transition: .5s;
-}
-ul li:hover{
-    color: var(--orange-color);
-    
+.blue-color{
+    color: var(--blue-color);
 }
